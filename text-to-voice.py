@@ -12,7 +12,7 @@ while run:
     with sr.Microphone() as source:
         print("Listening")
         audio_text=r.listen(source)
-        print("Done")
+        print("Done!")
         try:
             text=r.recognize_google(audio_text)
             print(json.dumps(data, indent=4))
