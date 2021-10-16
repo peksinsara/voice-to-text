@@ -1,4 +1,4 @@
 ﻿# voice-to-text
 
-run 
-pip install requirements.txt
+﻿#run 
+﻿pip install requirements.txt
